@@ -1,0 +1,164 @@
+* {
+	box-sizing: border-box;
+  	padding: 0;
+}
+
+
+.header {
+	margin: -8px auto 0 auto;
+	padding: 20px;
+	position: relative;
+	background-color: black;
+	color: white;
+	border-bottom: dotted 1px white;
+}
+
+body {
+	background-color: black;
+}
+.logo {
+	color: white;
+	text-align: center;
+	font-size: 48px;
+}
+	
+.container {
+	width: 1140px;
+	height: 500px;
+	margin: -21px auto 0 auto;
+	position: relative;
+}
+
+.heading-1 {
+	font-size: 20px;
+ 	color: white;
+ 	text-transform: uppercase;
+  	margin-left: 210px;
+  	padding-top: 40px;
+}
+
+.back-button {
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: -20px 0 20px 180px;
+}
+
+.button {
+	text-decoration: none;
+    color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.album1 {
+  width: 150px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.album1-cover {
+	width:150px;
+	height:150px;
+	border:0;
+}
+
+.heading-2,
+.img-text {
+	font-size: 18px;
+	color: white;
+	text-align: left;
+}
+
+.heading-2 {
+	width: 70px;
+	height: 50px;
+	margin-top: -40px;
+}
+
+/*album*/
+.album2 {
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+.album2-cover {
+	width:200px;
+	height:auto;
+	border:0;
+}
+
+
+
+table, td {
+    border-top: 2px solid white;
+    border-collapse: collapse;
+    padding: 7px;
+}
+.tables {
+	width: 200px;
+	height: 90px;
+	margin-left: 10px;
+}
+
+.price-name, 
+.price {
+	color: white;
+	font-size: 12px;
+}
+
+}
+ .price-name {
+    padding: 5px;
+    text-align: left;
+}
+
+.price {
+	padding-left: 60px;
+}
+
+
+
+.youtube-files {
+	margin-left: 20px;
+}
+
+
+.video1 {
+	height: 200px;
+	width: 320px;
+	padding: 5px;
+	border: 5px solid white;
+
+}
+
+
+video {
+	width: 300px;
+	height:200px;
+	margin-left: 25px;
+}
+audio {
+	margin-top: 140px;
+}
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: grey;
+}
+
+.copyright {
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}

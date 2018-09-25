@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ülesanne 3</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+	<header class="header">	
+		<h1 class="logo">Muusikapood</h1>
+	</header>
+	
+	<section class="container">
+		<section class="albums">
+			<h1 class="heading-1">Albumi/Nimi <br>
+				&#8592Tagasi
+			</h1>
+		</section>
+		
+		<section class="flex-container">
+			<section class="album2">
+				<a href="album1.html">
+				  <img class="album2-cover"src="deephouse.jpg">
+				</a>
+			</section>
+
+			<section class="tables">
+				<table class=price-table">
+				  <tr>
+				    <td class="price-name">MP3 Release</td>
+				    <td class="price">€2.50</td>
+				  </tr>
+				  <tr>
+				    <td class="price-name">FLAC Release</td>
+				    <td class="price">€3.50</td>
+				  </tr>
+				  <tr>
+				    <td class="price-name">WAV Release</td>
+				    <td class="price">€4.50</td>
+				  </tr>
+				</table>
+			</section>
+
+			<section "class="videoWrapper">
+				<section class="video-files">
+					<iframe class="video1" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+				</section>	
+			</section>
+		</section>		  
+	</section>
+	<footer class="footer">
+    	<p class="copyright">Copyright &#9400  2018</p>	
+	</footer>
+	
+</body>
+</html>
